@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #f7f39a;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Righteous", cursive;
+  font-size: 6rem;
+  color: #212125;
+}
+
+p {
+  font-size: 2.5rem;
+  color: #212125;
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+}
+
+img {
+  width: 80%;
+}
+
+.button {
+  text-align: center;
+  margin: 6% 15%;
+}
+
+.play-btn {
+  font-family: "Questrial", sans-serif;
+  font-size: 2rem;
+  padding: 1% 2%;
+  border-radius: 15px;
+  font-weight: bold;
+  background-color: #a3de83;
+  transition-property: all;
+  transition-duration: 0.3s;
+  margin: auto 3%;
+}
+
+.again-btn{
+  font-family: "Questrial", sans-serif;
+  font-size: 2rem;
+  padding: 1% 2%;
+  border-radius: 15px;
+  font-weight: bold;
+  background-color: #a3de83;
+  transition-property: all;
+  transition-duration: 0.3s;
+  margin: auto 3%;
+}
+
+.play-btn:hover{
+  transform: scale(1.1);
+}
+
+.again-btn:hover{
+  transform: scale(1.1);
+}
+
+footer {
+  font-size: 1.5rem;
+  margin-top: 5%;
+  color: #212125;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-weight: 500;
+}
